@@ -77,7 +77,7 @@ table {
     display:flex;
     justify-content:center;
 }
-.CTable{
+#CTable{
     border: 5px black;
     width:200px;
     height:200px;

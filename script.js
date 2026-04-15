@@ -2,7 +2,7 @@ const ContinueBTN=document.getElementById("Continue");
 const Body= document.querySelector("body");
 const YesBTN = document.getElementById("Yes");
 const NoBTN = document.getElementById("No");
-const img = document.querySelector(".CTable");
+const img = document.getElementById("CTable");
 const h1txt=document.getElementById("WelcomeText");
 const h2txt=document.getElementById("Instructions");
 const bg="bg=transparent";
@@ -28,4 +28,5 @@ YesBTN.addEventListener("click", function() {
   img.style.display="block";
 h1txt.style.display="none";
 h2txt.style.display="none";
+Output.style.display="block";
 });
