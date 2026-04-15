@@ -8,7 +8,7 @@ const h2txt=document.getElementById("Instructions");
 const bg="bg=transparent";
 const Output= document.querySelector(".Output");
 const apiKey="mcapi_6637839562af6e51d822723acf215a438c0efc5235468d459df986b710fac392";
-fetch("https://api.minecraftitems.xyz/api/item/diamond_sword/size=4/left?mcapi_6637839562af6e51d822723acf215a438c0efc5235468d459df986b710fac392")
+fetch("https://api.minecraftitems.xyz/api/item/diamond_sword/size=1/left?mcapi_6637839562af6e51d822723acf215a438c0efc5235468d459df986b710fac392")
   .then(function(response) {
     return response;
   })
